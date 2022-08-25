@@ -13,7 +13,7 @@ const onFormSubmit = event => {
     };
 
     if (email === `` || password === ``) {
-        alert(`Wrong login or password`);
+       return alert(`Wrong login or password`);
     }
     
     console.log(formData);
