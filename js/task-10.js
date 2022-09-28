@@ -18,7 +18,7 @@ btnCreate.addEventListener(`click`, onCreateBoxesBtnCreateClick);
 function onCreateBoxesBtnCreateClick (event) {
     createBoxes();
 };
-// создание нужного боксов соответствуя значению инпута
+// создание нужного количества боксов соответствуя значению инпута
 function createBoxes() {
   const quantityBox = document.querySelector(`#controls > input`).value;
     for (let i = 1; i <= quantityBox; i += 1) { 

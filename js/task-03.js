@@ -13,27 +13,6 @@ const images = [
   },
 ];
 const list = document.querySelector(`.gallery`);
-// const liContainer = [];
-// const imagesContainer = [];
-
-// создал и запушил фото в масссив
-// const createimage = images.map(data => {
-//   const image = document.createElement(`img`);
-//   image.src = data.url;
-//   image.alt = data.alt;
-//   image.width = 480;
-//   imagesContainer.push(image);
-// });
-
-// // создал li добавил в них фото и запушил в массив
-// const createLi = imagesContainer.map(image => {
-//     const li = document.createElement(`li`);
-//   li.append(image);
-//   li.classList.add(`gallery__item`)
-//     liContainer.push(li);
-// });
-
-// list.append(...liContainer);
 
 const makeGalleryMarkup = ({ url, alt }) => {
   return `
